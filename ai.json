@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "artificial-intelligence": "large language models",
+    "examples": "Open AI GPT, Gemini, Claude, LLama, Qwen, deepseek",
+    "usage": "Systems trained on massive amounts of data to generate human like content"
+},
+
+{
+    "id": 2,
+    "artificial-intelligence": "AI Assistants",
+    "examples": "Grok, Perplexity,Meta AI, Qwen, copilot, Qwen, Open AI GPT",
+    "usage": "A software program powered by AI that use machine learning to understand user requests"
+},
+
+{
+    "id": 3,
+    "artificial-intelligence": "Image generation and editing",
+    "examples": "DALL.E, Gemini nano banana, Midjourney, Canva, Photoroom",
+    "usage": "Uses AI to generate images per user request" 
+}
+
+]
