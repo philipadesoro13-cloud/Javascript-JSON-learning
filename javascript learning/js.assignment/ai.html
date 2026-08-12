@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="loaduser()">click me</button>
+
+    <div id="user"></div>
+
+    <script>
+        async function loaduser() {
+        const response = await fetch("https://raw.githubusercontent.com/philipadesoro13-cloud/Javascript-JSON-learning/refs/heads/main/ai.json");
+        const data = await response.json();
+        const content =data.map(ai => {
+        return `<p><b>${ai["artificial-intelligence"]}</b> <br> ${ai.examples} ${ai.usage}.</p>`;
+        }).join("");
+
+        document.getElementById("user").innerHTML=content;
+    }
+
+
+    </script>
+</body>
+</html>
