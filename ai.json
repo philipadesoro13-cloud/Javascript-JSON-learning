@@ -9,7 +9,7 @@
 {
     "id": 2,
     "artificial-intelligence": "AI Assistants",
-    "examples": "Grok, Perplexity,Meta AI, Qwen, copilot, Qwen",
+    "examples": "Grok, Perplexity,Meta AI, Qwen, copilot, Qwen, Open AI GPT",
     "usage": "A software program powered by AI that use machine learning to understand user requests"
 },
 
